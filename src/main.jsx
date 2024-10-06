@@ -33,8 +33,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: '/resume', // Route for Resume page
-        element: <Resume />, // Resume component
+        path: '/resume', 
+        element: <Resume />, 
       },
     ],
   },

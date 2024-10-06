@@ -12,7 +12,7 @@ function Contact() {
     return (
       <div>
         <h1>Contact Me</h1>
-        <p>This is the contact page.</p>
+        <label>E-mail : </label> <a href="mailto:deepthi_thampi@hotmail.com">deepthi_thampi@hotmail.com</a>
       </div>
     );
   }
