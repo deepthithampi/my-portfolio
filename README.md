@@ -1,8 +1,43 @@
-# React + Vite
+# My Portfolio
+![License](https://img.shields.io/badge/License-MIT-blue)
+    
+## Description
+This project showcases my skills, projects, and experiences as a developer in a visually appealing and interactive web application. It serves as a central hub for all of my completed and ongoing projects, providing potential employers and collaborators with a glimpse into my work and skillset.
+    
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+    
+## Installation
+```
+npm install and npm start 
+```
+   
+## Usage
+This portfolio website showcases your projects, skills, and professional background. It includes several key sections designed to give visitors a quick and engaging overview of your expertise.
+    
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## License
+This project is licensed under the MIT license.  
+![License](https://img.shields.io/badge/License-MIT-blue)  
+[More about MIT license](https://choosealicense.com/licenses/mit/)
+    
+    
+## Contributing
+Contributions are welcome!
+    
+## Tests
+```
+Currently, there are no tests available for this project.
+```
+    
+## Questions
+For any questions, please feel free to contact me at deepthi_thampi@hotmail. 
+You can also find more of my work at [deepthithampi](https://github.com/deepthithampi).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+

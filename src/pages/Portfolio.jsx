@@ -14,8 +14,8 @@
 
 import React from 'react';
 import Project from '../components/Project'; 
-// import projectImage1 from './assets/projectImage1.jpg'; // Import project images
-// import projectImage2 from './assets/projectImage2.jpg';
+import projectImage1 from '../assets/weather.png'; 
+import projectImage2 from '../assets/employeetracker.png';
 // import projectImage3 from './assets/projectImage3.jpg';
 // import projectImage4 from './assets/projectImage4.jpg';
 // import projectImage5 from './assets/projectImage5.jpg';
@@ -25,15 +25,15 @@ function Portfolio() {
   const projects = [
     {
       title: 'Weather DashBoard',
-      // imageUrl: projectImage1,
-      imageUrl: image,
+      imageUrl: projectImage1,
+      // imageUrl: image,
       deployedLink: 'Weather DashBoard',
       githubLink: 'https://github.com/deepthithampi/weather-dashboard',
     },
     {
       title: 'EmployeeTracker',
-      // imageUrl: projectImage2,
-      imageUrl: image,
+      imageUrl: projectImage2,
+      // imageUrl: image,
       deployedLink: 'EmployeeTracker',
       githubLink: 'https://github.com/deepthithampi/employee-tracker',
     },
