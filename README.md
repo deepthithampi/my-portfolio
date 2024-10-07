@@ -48,4 +48,6 @@ https://bootcampspot.instructure.com/courses/6717/external_tools/313
 https://kaleidoscopic-naiad-63bd91.netlify.app/aboutme
 
 ## Screenshots
-![Alt text](./assets/portfolio.png)
+![Alt text](/src/assets/portolio.png)
+
+![Alt text](/src/assets/portfolio1.png)
