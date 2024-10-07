@@ -16,10 +16,10 @@ import React from 'react';
 import Project from '../components/Project'; 
 import projectImage1 from '../assets/weather.png'; 
 import projectImage2 from '../assets/employeetracker.png';
-// import projectImage3 from './assets/projectImage3.jpg';
-// import projectImage4 from './assets/projectImage4.jpg';
-// import projectImage5 from './assets/projectImage5.jpg';
-// import projectImage6 from './assets/projectImage6.jpg';
+import projectImage3 from '../assets/readme_generator.png';
+import projectImage4 from '../assets/rock_paper_scissors.png';
+import projectImage5 from '../assets/marketing.png';
+import projectImage6 from '../assets/prework.png';
 import image from '../assets/react.svg'
 function Portfolio() {
   const projects = [
@@ -39,29 +39,29 @@ function Portfolio() {
     },
     {
       title: 'ReadMe Generator',
-      // imageUrl: projectImage3,
-      imageUrl: image,
+      imageUrl: projectImage3,
+      // imageUrl: image,
       deployedLink: 'ReadMe Generator',
       githubLink: 'https://github.com/deepthithampi/readme-generator',
     },
     {
       title: 'Rock-Paper-Scissors',
-      // imageUrl: projectImage4,
-      imageUrl: image,
+      imageUrl: projectImage4,
+      // imageUrl: image,
       deployedLink: 'Rock-Paper-Scissors',
       githubLink: 'https://github.com/deepthithampi/rock-paper-scissors',
     },
     {
       title: 'Project Five',
-      // imageUrl: projectImage5,
-      imageUrl: image,
+      imageUrl: projectImage5,
+      // imageUrl: image,
       deployedLink: 'Marketing Web Page',
       githubLink: 'https://github.com/deepthithampi/marketing-webpage-update',
     },
     {
       title: 'PreWork Study Guide',
-      // imageUrl: projectImage6,
-      imageUrl: image,
+      imageUrl: projectImage6,
+      // imageUrl: image,
       deployedLink: 'PreWork Study Guide',
       githubLink: 'https://github.com/deepthithampi/prework-study-guide',
     },

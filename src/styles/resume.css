@@ -1,0 +1,51 @@
+/* Resume component container styling */
+.resume-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .resume-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    /* color: #333; */
+  }
+  
+  .resume-download-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-download-link:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Skills list styling */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    margin: 5px 10px;
+    padding: 8px 12px;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+    font-size: 1em;
+    /* color: #333; */
+  }
