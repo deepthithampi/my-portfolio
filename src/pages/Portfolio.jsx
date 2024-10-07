@@ -1,10 +1,4 @@
 
-//  import `Project` and use it to display six projects.
-//    - Map over an array of project data (image, title, links) to render the `Project` component multiple times.
-
-// 2. Add images for each project:
-//    - Import the project images from the `assets` folder.
-//    - Ensure the images link to the correct apps and repos.
 
 // 3. Style the Portfolio section:
 // - Ensure the projects are displayed in a grid or card layout.
@@ -20,14 +14,14 @@ import projectImage3 from '../assets/readme_generator.png';
 import projectImage4 from '../assets/rock_paper_scissors.png';
 import projectImage5 from '../assets/marketing.png';
 import projectImage6 from '../assets/prework.png';
-import image from '../assets/react.svg'
+// import image from '../assets/react.svg'
 function Portfolio() {
   const projects = [
     {
       title: 'Weather DashBoard',
       imageUrl: projectImage1,
       // imageUrl: image,
-      deployedLink: 'Weather DashBoard',
+      deployedLink: 'https://weather-dashboard-vaf6.onrender.com/',
       githubLink: 'https://github.com/deepthithampi/weather-dashboard',
     },
     {
@@ -52,7 +46,7 @@ function Portfolio() {
       githubLink: 'https://github.com/deepthithampi/rock-paper-scissors',
     },
     {
-      title: 'Project Five',
+      title: 'Marketing Web Page',
       imageUrl: projectImage5,
       // imageUrl: image,
       deployedLink: 'Marketing Web Page',

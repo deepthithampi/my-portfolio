@@ -7,8 +7,8 @@ function Project({ title, imageUrl, deployedLink, githubLink }) {
         <h3>{title}</h3>
         <img src={imageUrl} alt={`Screenshot of ${title}`} />
         <div>
-          {/* <a href={deployedLink} target="_blank" rel="noopener noreferrer">Deployed Application</a> */}
-          <a href={githubLink} target="_blank" rel="noopener noreferrer">{deployedLink} - Github link</a>
+          <a href={deployedLink} target="_blank" rel="noopener noreferrer">{title}</a><br></br>
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">{githubLink} </a>
         </div>
       </div>
     );
