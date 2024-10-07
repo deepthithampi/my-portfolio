@@ -1,11 +1,4 @@
 
-
-// 3. Style the Portfolio section:
-// - Ensure the projects are displayed in a grid or card layout.
-// - Add hover effects or animations if desired.
-// This component will be used in the Portfolio section to showcase multiple projects.
-// Each instance of Project will display a project with its image, title, links to the deployed project, and the GitHub repository.
-
 import React from 'react';
 import Project from '../components/Project'; 
 import projectImage1 from '../assets/weather.png'; 
@@ -56,7 +49,7 @@ function Portfolio() {
       title: 'PreWork Study Guide',
       imageUrl: projectImage6,
       // imageUrl: image,
-      deployedLink: 'PreWork Study Guide',
+      deployedLink: 'https://deepthithampi.github.io/prework-study-guide/',
       githubLink: 'https://github.com/deepthithampi/prework-study-guide',
     },
   ];

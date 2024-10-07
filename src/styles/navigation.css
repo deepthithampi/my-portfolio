@@ -22,13 +22,18 @@
   }
   
   .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2); 
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  }
 
   .nav-item:focus{
     background-color: #DDE5B6;
     color: #DDE5B6;
   }
   
+  .nav-link.focus{
+    background-color:  #93a26a; 
+    color: #93a26a;
+  }
   .nav-link.active {
     background-color:  #93a26a; 
     font-weight: bold; 
