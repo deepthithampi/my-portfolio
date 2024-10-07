@@ -5,7 +5,7 @@
     margin: 0;
     display: flex;
     justify-content: center; /* Center the navigation items */
-    background-color: #007bff; /* Background color for the nav bar */
+    background-color: #ADC178; /* Background color for the nav bar */
     border-radius: 4px;
   }
   
@@ -24,8 +24,13 @@
   .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
   }
+
+  .nav-item:focus{
+    background-color: #DDE5B6;
+    color: #DDE5B6;
+  }
   
   .nav-link.active {
-    background-color: #0056b3; /* Active link background color */
+    background-color:  #93a26a; /* Active link background color */
     font-weight: bold; /* Make the active link bold */
   }
