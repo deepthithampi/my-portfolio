@@ -8,7 +8,7 @@
 // 3. Test the Resume section:
 //    - Ensure the download link works correctly.
 
-// import pdf from "..assets/deepthi_resume.pdf"; // put resume in assets
+import pdf from "../assets/deepthi_resume.pdf"; // put resume in assets
 function Resume() {
     return (
       <div>
@@ -16,8 +16,8 @@ function Resume() {
         <h5>My Skills</h5>
         
         <p>Download my resume</p>
-        {/* <a href={`${process.env.PUBLIC_URL}/assets/deepthi_resume.pdf`} download> Download</a>*/}
-        {/* <a href={pdf} download>Download</a>  */}
+        {/* <a href={`${process.env.PUBLIC_URL}/assets/deepthi_resume.pdf`} download> Download</a> */}
+        <a href={pdf} download>Download</a> 
       </div>
     );
   }

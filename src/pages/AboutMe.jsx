@@ -5,7 +5,7 @@
 // 2. Add styles to make the section look polished:
 //    - Use CSS 
 
-import image from '../assets/react.svg'
+import image from '../assets/deepthi.jpg'
 export default function AboutMe() {
     return (
       <div>

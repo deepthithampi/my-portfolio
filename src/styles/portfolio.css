@@ -1,0 +1,81 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .project h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project div {
+    padding: 10px;
+  }
+  
+  .project a {
+    color: #368ace;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+
+  /* responsiveness */
+  @media (min-width: 768px) {
+    .projects-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  /* Animation kind of thing */
+  .project {
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+
+  /* Readability  */
+  body, input, textarea, button {
+    font-size: 16px;
+  }
+  
+  /* Focus States for Accessibility */
+  button:focus, a:focus {
+    outline: 2px dashed #7f92cd;
+    background-color: #368ace;
+    
+    outline-offset: 4px;
+  }
