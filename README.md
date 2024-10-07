@@ -39,5 +39,13 @@ Currently, there are no tests available for this project.
 For any questions, please feel free to contact me at deepthi_thampi@hotmail. 
 You can also find more of my work at [deepthithampi](https://github.com/deepthithampi).
 
+## Resources
+https://stackoverflow.com/ ,
 
+https://bootcampspot.instructure.com/courses/6717/external_tools/313
 
+## Deployed Link
+https://kaleidoscopic-naiad-63bd91.netlify.app/aboutme
+
+## Screenshots
+![Alt text](./assets/portfolio.png)
