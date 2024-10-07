@@ -1,6 +1,6 @@
 
-import pdf from "../assets/deepthi_resume.pdf"; // Make sure the path is correct
-
+import pdf from "../assets/deepthi_resume.pdf"; 
+import '../styles/resume.css'
 function Resume() {
   const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js", "TypeScript", "Express", "PostgreSQL"];
 

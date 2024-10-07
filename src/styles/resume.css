@@ -13,7 +13,7 @@
   .resume-container h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
-    /* color: #333; */
+    color:  #93a26a;
   }
   
   .resume-download-link {
@@ -22,14 +22,14 @@
     padding: 10px 15px;
     font-size: 1em;
     color: #fff;
-    background-color: #4CAF50;
+    background-color:  #6a744d;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
   
   .resume-download-link:hover {
-    background-color: #3e8e41;
+    background-color: #93a26a;
   }
   
   /* Skills list styling */
@@ -44,8 +44,8 @@
   .skills-list li {
     margin: 5px 10px;
     padding: 8px 12px;
-    background-color: #e0f7fa;
+    background-color:  #d3e2ac;
     border-radius: 4px;
     font-size: 1em;
-    /* color: #333; */
+   
   }

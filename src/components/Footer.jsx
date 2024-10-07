@@ -1,12 +1,4 @@
 
-
-// 2. Use anchor tags with `target="_blank"` to open the links in a new tab.
-
-// 3. Render the `Footer` component:
-//    - Ensure it appears at the bottom of each page.
-
-// 4. Style the footer:
-//    - Make sure the layout is consistent and responsive (consider centering the links).
 import '../styles/footer.css';
 function Footer() {
     return (

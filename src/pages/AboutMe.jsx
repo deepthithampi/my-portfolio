@@ -1,10 +1,4 @@
 
-// add a section with  name, a short bio, and  photo.
-//    - Import the photo from the `assets` folder and display it.
-
-// 2. Add styles to make the section look polished:
-//    - Use CSS 
-
 import image from '../assets/deepthi.jpg'
 export default function AboutMe() {
     return (
