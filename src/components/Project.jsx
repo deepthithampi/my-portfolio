@@ -1,6 +1,4 @@
 
-//    - Inside `Project.js`, create a card or tile layout that displays a project image, title, and two links (one to the deployed app and one to the GitHub repo).
-//    - Pass project details (image, title, links) as props.
 function Project({ title, imageUrl, deployedLink, githubLink }) {
     return (
       <div className="project">
