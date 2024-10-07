@@ -45,7 +45,7 @@ https://stackoverflow.com/ ,
 https://bootcampspot.instructure.com/courses/6717/external_tools/313
 
 ## Deployed Link
-https://kaleidoscopic-naiad-63bd91.netlify.app/aboutme
+https://kaleidoscopic-naiad-63bd91.netlify.app/
 
 ## Screenshots
 ![Alt text](/src/assets/portolio.png)
