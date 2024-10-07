@@ -1,0 +1,31 @@
+/* Navigation bar styling */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    background-color: #007bff; /* Background color for the nav bar */
+    border-radius: 4px;
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Space between nav items */
+  }
+  
+  .nav-link {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around the link */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  }
+  
+  .nav-link.active {
+    background-color: #0056b3; /* Active link background color */
+    font-weight: bold; /* Make the active link bold */
+  }

@@ -6,8 +6,8 @@
 }
 
 .footer {
-    background-color: #4A90E2;; 
-    color: #f0f0f0;
+    background-color: #93a26a; 
+    color: #F0EAD2;
     padding: 1rem 0;
     text-align: center;
     position: relative;
@@ -32,7 +32,7 @@
 }
 
 .footer-links a:hover {
-    color: #61dafb; 
+    color: #6C584C; 
 }
 
 /* Responsive  */

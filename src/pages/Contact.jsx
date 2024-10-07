@@ -10,7 +10,7 @@
 //    - Display your email and phone number below the form as a secondary way to reach you.
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers'; 
-
+import '../styles/Contact.css';
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -59,6 +59,7 @@ function Contact() {
       <h1>Contact Me</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
+         
           value={name}
           name="name"
           onChange={handleInputChange}

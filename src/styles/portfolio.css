@@ -21,7 +21,7 @@
   .project h3 {
     padding: 10px;
     font-size: 1.2rem;
-    background-color: #4A90E2;
+    background-color:F0EAD2;
     color: white;
     text-align: center;
   }
@@ -36,7 +36,7 @@
   }
   
   .project a {
-    color: #368ace;
+    color:  #93a26a;
     text-decoration: none;
     margin-right: 10px;
   }
@@ -74,8 +74,8 @@
   
   /* Focus States for Accessibility */
   button:focus, a:focus {
-    outline: 2px dashed #7f92cd;
-    background-color: #368ace;
+    outline: 2px dashed #93a26a;
+    background-color: #DDE5B6;
     
     outline-offset: 4px;
   }
