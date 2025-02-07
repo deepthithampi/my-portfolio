@@ -1,5 +1,5 @@
 
-import pdf from "../assets/deepthi_resume.pdf"; 
+import pdf from "../assets/Deepthi_Girija_Thampi.pdf"; 
 import '../styles/resume.css'
 function Resume() {
   const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js", "TypeScript", "Express", "PostgreSQL"];

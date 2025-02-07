@@ -4,7 +4,7 @@ import Project from '../components/Project';
 import projectImage1 from '../assets/weather.png'; 
 import projectImage2 from '../assets/employeetracker.png';
 import projectImage3 from '../assets/readme_generator.png';
-import projectImage4 from '../assets/rock_paper_scissors.png';
+import project3 from '../assets/project3.png';
 import projectImage5 from '../assets/marketing.png';
 import projectImage6 from '../assets/prework.png';
 // import image from '../assets/react.svg'
@@ -32,11 +32,11 @@ function Portfolio() {
       githubLink: 'https://github.com/deepthithampi/readme-generator',
     },
     {
-      title: 'Rock-Paper-Scissors',
-      imageUrl: projectImage4,
+      title: 'Look-Over-There',
+      imageUrl: project3,
       // imageUrl: image,
-      deployedLink: 'Rock-Paper-Scissors',
-      githubLink: 'https://github.com/deepthithampi/rock-paper-scissors',
+      deployedLink: 'https://look-over-there.onrender.com/',
+      githubLink: 'https://github.com/Godzelduh/look-over-there',
     },
     {
       title: 'Marketing Web Page',
